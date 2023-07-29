@@ -1,193 +1,271 @@
-body,
-.top,
-.second,
-.third,
-.image-subtext,
-.fourth-text{
-    display : flex;
-    flex-direction: column;
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+.homepage {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fde2ef;
+}
+.homepage .top {
+  margin-bottom: 2.7rem;
+  box-sizing: border-box;
+  padding-bottom: 3.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #792a51;
+  flex-shrink: 0;
+}
+.homepage .top .header {
+  margin: 0rem 10.2rem 1.2rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.homepage .top .header .logo-image {
+  margin-right: 59.6rem;
+  width: 17.4rem;
+  height: 8.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.homepage .top .header .clothes {
+  margin: 0.4rem 4.8rem 0rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.homepage .top .header .jewellery {
+  margin: 0.4rem 4.8rem 0rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+}
+.homepage .top .header .footwear {
+  margin: 0.4rem 5rem 0rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+}
+.homepage .top .header .handbags {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+}
+.homepage .top .head-content {
+  margin: auto;
+  width: calc(100% - 13.1rem);
+  height: 27.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.homepage .top .head-content .heading-area {
+  margin: 3.8rem 16.6rem 4.4rem 0rem;
+  height: calc(100% - 8.2rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.homepage .top .head-content .heading-area .heading {
+  margin-bottom: 1.8rem;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.2825;
+  color: #d9d9d9;
+  font-family: Delius Unicase, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.homepage .top .head-content .heading-area .front-content {
+  margin-bottom: 1.7rem;
+  max-width: 44.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2825;
+  color: #ffffff;
+  font-family: Delius Unicase, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.homepage .top .head-content .heading-area .sign-up_icon {
+  width: 15.8rem;
+  height: 3.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #f0f0f0;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f46aac;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.no-change_color:link, .no-change_color:visited {
+	  color: #F0F0F0;
+	  text-decoration: none;
+}
+.no-change_color:hover {
+	  color: #F0F0F0;
+	  text-decoration: underline;
+}
+.homepage .top .head-content .profile-picture {
+  width: 59rem;
+  height: 32rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 1;
 
 }
-
-.header,
-.first,
-.images-second,
-.fourth,
-.links{
-    display: flex;
+.homepage .Categories {
+  margin-right: 7.7rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
 }
-
-.second-header{
-    text-align: center;
+.homepage .bottom {
+  box-sizing: border-box;
+  padding: 3.9rem 14.9rem 4.4rem 15.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
-.image-subtext p{
-    width:180px;
-    text-align: center;   
+.homepage .bottom .images-div {
+  margin-bottom: 0.9rem;
+  width: 100%;
+  display: flex;
+  column-gap: 16rem;
+  align-items: center;
+  flex-shrink: 0;
 }
-
-.images-second
-{
-    margin-left: auto;
-    margin-right: auto;
-    gap:20px;
+.homepage .bottom .images-div .clothes-pic {
+  width: 16.2rem;
+  height: 24rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
 }
-.image-subtext img{
-    height:200px;
-    border-radius: 10px;
-    border:solid blue 2px;
-    width:200px;
+.homepage .bottom .images-div .jewellery-pic {
+  width: 15.7rem;
+  height: 24rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
 }
-
-
-.links{
-    gap:15px;
-    margin-top:20px;
+.homepage .bottom .images-div .footwear-pic {
+  width: 16rem;
+  height: 24rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
 }
-body{
-    margin:0px;
+.homepage .bottom .images-div .handbags-pic {
+  width: 15.1rem;
+  height: 24rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
 }
-.top,
-.footer{
-background-color: #1F2937;
+.homepage .bottom .categories-div {
+  margin: 0rem 3.7rem 0rem 3.9rem;
+  width: calc(100% - 7.6rem);
+  display: flex;
+  column-gap: 24.5rem;
+  align-items: center;
+  flex-shrink: 0;
 }
-
-
-.placeholder{
-    text-align: center;
-    color:#F9FAF8;
-    width:500px;
-    height:200px;
-    background-color: gray;
+.homepage .bottom .categories-div .bridal-wear-div {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-
-.placeholder p{
-    margin:90px 0 0 0;
+.homepage .bottom .categories-div .jewellery-div {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-.links a{
-text-decoration: none;
-font-size: 18px;
-color:#E5E7EB;
+.homepage .bottom .categories-div .footwear-div {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-
-.first-container{
-    padding-bottom: 100px;
-    width:470px;
-}
-.header{
-    gap:450px;
-}
-.first{
-    gap:100px;
-    align-items: center;
-}
-
-.top{
-    align-items: center;
-}
-
-.first-header
-{
-    font-size:48px;
-    font-weight: 900;
-    color: #F9FAF8;
-}
-
-.first-header-subtext{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.logo{
-    font-size: 24px;
-    
-    color:#F9FAF8;
-}
-
-.first-button{
-    background-color:#3882F6;
-    border-color:#3882F6;
-    border-radius: 10px;
-    color:#F9FAF8;
-    padding:0;
-    width:100px;
-    height:30px;
-}
-
-.second-header{
-    font-size:36px;
-    font-weight: 900;
-    color:#1F2937
-}
-
-.third{
-    background-color: #E5E7EB;
-    justify-content: center;
-}
-.quote{
-    margin-top:200px;
-    margin-bottom:auto;
-    font-size: 36px;
-    font-style:italic;
-    font-weight:400;
-    color:#1F2937
-}
-
-.quoter{
-    flex-basis: 200px;
-
-}
-.fourth{
-   
-    background-color: #3882F6;
-    color:#F9FAF8;
-    border-radius:5px;
-    
-}
-
-.third{
-    text-align: center;
-}
-
-.quoter{
-    padding-left:150px;
-}
-.fourth-header{
-    font-weight: 900;
-    font-size: 18px;
-    margin:40px 0 0 0;
-}
-
-.fourth-subtext{
-    margin:0 0 40px 0;
-}
-
-.fourth{
-    margin:80px 150px 80px 150px;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    height:140px;
-    width:1000px;
-}
-
-.fourth-button{
-    align-self: center;
-    padding:5px 25px 5px 25px;
-    color:#F9FAF8;
-    background-color: #3882F6;
-    border-radius: 10px;
-    border-color: #F9FAF8;
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-
-}
-.footer p{
-
-    color: #F9FAF8;
-    font-size:10px;
+.homepage .bottom .categories-div .handbags-div {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
