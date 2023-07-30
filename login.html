@@ -20,15 +20,17 @@
         </div>
         <div class="login">
             <h3 class="title">User Login</h3>
-            <div class="text-input">
-                <i class="ri-user-fill"></i>
-                <input type="text" placeholder="Username">
-            </div>
-            <div class="text-input">
-                <i class="ri-lock-fill"></i>
-                <input type="password" placeholder="Password">
-            </div>
-            <button class="login-btn">LOGIN</button>
+            <form action="login/login.php" method="post">
+                <div class="text-input">
+                    <i class="ri-user-fill"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="text-input">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="login-btn">LOGIN</button>
+            </form>
             <a href="#" class="forgot">Forgot Username/Password?</a>
             <div class="create">
                 <a href="join.html">Create Your Account</a>
